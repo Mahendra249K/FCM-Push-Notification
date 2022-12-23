@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031055141349",
+    "project_id": "fmc-demo-b7751",
+    "storage_bucket": "fmc-demo-b7751.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031055141349:android:abd3cf15a01d9a2140670c",
+        "android_client_info": {
+          "package_name": "com.project.fmcdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031055141349-irf6aikcnh6kpj82cic86gv443v1pr7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA78ZBPdfL0A9rsifTs2NKICzlSLjzRrnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031055141349-irf6aikcnh6kpj82cic86gv443v1pr7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

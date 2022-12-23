@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topic -> "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/topics/sub" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/apk_edit_text_background"
+        android:cursorVisible="true"
+        android:elevation="4dp"
+        android:hint="Enter title"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/apk_edit_text_background"
+        android:cursorVisible="true"
+        android:elevation="4dp"
+        android:gravity="top"
+        android:hint="Enter body"
+        android:minLines="3"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/apk_button_green"
+        android:elevation="3dp"
+        android:onClick="onClick"
+        android:paddingVertical="10dp"
+        android:text="Send Notificaion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
